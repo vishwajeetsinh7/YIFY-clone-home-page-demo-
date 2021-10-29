@@ -258,11 +258,13 @@
 
         }
         .rating{
-            margin-bottom: 20px;
+            
         }
         .star{
             color:#6ac045;
-            margin-bottom: 20px;
+            /* margin-bottom: 20px; */
+            
+            
             
         }
        
@@ -278,7 +280,13 @@
         }
         .figure{
             position: absolute;
-            background-color: red;
+            background:linear-gradient(to bottom,rgba(29,29,29,0.65) 0,rgba(29,29,29,1) 100%);
+            border:solid greenyellow 5px;
+            text-align: center;
+            
+            
+            height: 315px;
+            width: 210px;
             top:0;
             left: 0;
             right: 0;
@@ -304,23 +312,30 @@
             
            
         }
-              .card:hover {
-                
-                border-color: greenyellow;
-                background-color: transparent
-                
-                
-;
-              
-                
-            }
 
-            .ca{
-                margin-bottom: 50px;
-                line-height: 0px;
-            }
+        .inside{
+            text-align: center;
+            color:white;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            line-height: 20px;
+            
+            display: block;
+            position: relative;
+            justify-content: space-evenly;
+            
+        }
 
-            .aaa:hover, .aaa:focus{
-                color: #2a6496;
-                background-color: transparent;
-            }
+        .r1{
+            margin-bottom: 30px;
+        }
+        .r2{
+            line-height: 0px;
+            
+        }
+        .r3{
+            margin-top: 50px;
+        }
+    
+
+         
